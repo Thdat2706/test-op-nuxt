@@ -9,27 +9,14 @@ export default {
     return {
       title: "The Pursuit of Happyness - Homepage",
       meta: [
+        { hid: "og-type", property: "og:type", content: "website" },
+        { hid: "og-title", property: "og:title", content: "My Title" },
         {
-          hid: "og:title",
-          name: "og:title",
-          content: "about title",
+          hid: "og-image",
+          property: "og:image",
+          content: "/favicon.ico",
         },
-        {
-          hid: "og:type",
-          name: "og:type",
-          content: "website",
-        },
-        {
-          hid: "og:image",
-          name: "og:image",
-          content:
-            "/favicon.ico",
-        },
-        {
-          hid: "og:description",
-          name: "og:description",
-          content:
-            "about desc" },
+        { hid: "og-desc", property: "og:description", content: "about desc" },
       ],
     };
   },

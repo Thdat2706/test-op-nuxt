@@ -21,9 +21,7 @@
       </div>
       <div class="mt-5">
         <h2 class="font-semibold text-lg">Film Synopsis</h2>
-        <p class="mt-2">
-          123
-        </p>
+        <p class="mt-2">123</p>
       </div>
     </section>
   </main>
@@ -36,27 +34,14 @@ export default {
     return {
       title: "The Pursuit of Happyness - Homepage",
       meta: [
+        { hid: "og-title", property: "og:title", content: "Mee Title" },
+        { hid: "og-type", property: "og:type", content: "website" },
         {
-          hid: "og:title",
-          name: "og:title",
-          content: "Mee title",
+          hid: "og-image",
+          property: "og:image",
+          content: "/favicon.png",
         },
-        {
-          hid: "og:type",
-          name: "og:type",
-          content: "website",
-        },
-        {
-          hid: "og:image",
-          name: "og:image",
-          content:
-            "/favicon.png",
-        },
-        {
-          hid: "og:description",
-          name: "og:description",
-          content:
-            "Mee desc" },
+        { hid: "og-desc", property: "og:description", content: "Mee desc" },
       ],
     };
   },
