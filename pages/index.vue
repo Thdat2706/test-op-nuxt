@@ -43,6 +43,9 @@ export default {
         },
         { hid: "og-desc", property: "og:description", content: "Mee desc" },
         { hid: "t-type", name: "twitter:card", content: "summary" },
+        { hid: "t-title", name: "twitter:title", content: "Mee Title" },
+        { hid: "t-desc", name: "twitter:description", content: "Mee desc" },
+        { hid: "t-image", name: "twitter:image", content: "/favicon.png" },
       ],
     };
   },
