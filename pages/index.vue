@@ -40,13 +40,18 @@ export default {
           hid: "og-image",
           property: "og:image",
           content:
-            "https://media.wired.co.uk/photos/60c8730fa81eb7f50b44037e/1:1/w_640,c_limit/1521-WIRED-Cat.jpeg",
+            "https://res.cloudinary.com/dwq8gdm1c/image/upload/v1685516392/favicon_uoltws.png",
         },
         { hid: "og-desc", property: "og:description", content: "Mee desc" },
         { hid: "t-type", name: "twitter:card", content: "summary" },
         { hid: "t-title", name: "twitter:title", content: "Mee Title" },
         { hid: "t-desc", name: "twitter:description", content: "Mee desc" },
-        { hid: "t-image", name: "twitter:image", content: "https://media.wired.co.uk/photos/60c8730fa81eb7f50b44037e/1:1/w_640,c_limit/1521-WIRED-Cat.jpeg" },
+        {
+          hid: "t-image",
+          name: "twitter:image",
+          content:
+            "https://res.cloudinary.com/dwq8gdm1c/image/upload/v1685516392/favicon_uoltws.png",
+        },
       ],
     };
   },
