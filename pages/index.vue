@@ -56,7 +56,7 @@ export default {
           hid: "og:image",
           name: "og:image",
           content:
-            "/static/favicon.png",
+            "/favicon.png",
         },
         {
           hid: "og:description",
