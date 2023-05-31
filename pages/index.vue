@@ -39,7 +39,7 @@ export default {
         {
           hid: "og-image",
           property: "og:image",
-          content: "https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fimage&psig=AOvVaw11YQc6OUXg0BeWxM0z-ElQ&ust=1685593864216000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIjogM7cnv8CFQAAAAAdAAAAABAD",
+          content: "https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
         },
         { hid: "og-desc", property: "og:description", content: "Mee desc" },
       ],
