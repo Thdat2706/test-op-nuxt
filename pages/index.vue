@@ -39,7 +39,7 @@ export default {
         {
           hid: "og-image",
           property: "og:image",
-          content: "/favicon.png",
+          content: "https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fimage&psig=AOvVaw11YQc6OUXg0BeWxM0z-ElQ&ust=1685593864216000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIjogM7cnv8CFQAAAAAdAAAAABAD",
         },
         { hid: "og-desc", property: "og:description", content: "Mee desc" },
       ],
