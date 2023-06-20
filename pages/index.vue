@@ -40,7 +40,7 @@ export default {
           hid: "og-image",
           property: "og:image",
           content:
-            "/favicon.png",
+            "/static/favicon.png",
         },
         { hid: "og-desc", property: "og:description", content: "Mee desc" },
         {
@@ -49,14 +49,14 @@ export default {
           content: "https://test-op-nuxt.vercel.app/",
         },
 
-        { hid: "t-type", name: "twitter:card", content: "summary_large_image" },
+        { hid: "t-type", name: "twitter:card", content: "summary" },
         { hid: "t-title", name: "twitter:title", content: "Mee Title" },
         { hid: "t-desc", name: "twitter:description", content: "Mee desc" },
         {
           hid: "t-image",
           name: "twitter:image",
           content:
-            "/favicon.png",
+            "/static/favicon.png",
         },
       ],
     };
