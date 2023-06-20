@@ -48,14 +48,14 @@ export default {
           content: "https://test-op-nuxt.vercel.app/",
         },
 
-        { hid: "t-type", name: "twitter:card", content: "summary" },
-        { hid: "t-title", name: "twitter:title", content: "Mee Title" },
-        { hid: "t-desc", name: "twitter:description", content: "Mee desc" },
-        {
-          hid: "t-image",
-          name: "twitter:image",
-          content: "https://res.cloudinary.com/dwq8gdm1c/image/upload/v1685516392/favicon_uoltws.png",
-        },
+        // { hid: "t-type", name: "twitter:card", content: "summary" },
+        // { hid: "t-title", name: "twitter:title", content: "Mee Title" },
+        // { hid: "t-desc", name: "twitter:description", content: "Mee desc" },
+        // {
+        //   hid: "t-image",
+        //   name: "twitter:image",
+        //   content: "https://res.cloudinary.com/dwq8gdm1c/image/upload/v1685516392/favicon_uoltws.png",
+        // },
       ],
     };
   },
