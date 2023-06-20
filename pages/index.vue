@@ -41,7 +41,7 @@ export default {
         {
           hid: "og-image",
           property: "og:image",
-          content: ImageSrc,
+          content: 'https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg',
         },
         { hid: "og-desc", property: "og:description", content: "Mee desc" },
         {
@@ -56,7 +56,7 @@ export default {
         {
           hid: "t-image",
           name: "twitter:image",
-          content: ImageSrc,
+          content: 'https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg',
         },
       ],
     };
