@@ -43,6 +43,11 @@ export default {
             "https://res.cloudinary.com/dwq8gdm1c/image/upload/v1685516392/favicon_uoltws.png",
         },
         { hid: "og-desc", property: "og:description", content: "Mee desc" },
+        {
+          hid: "og:url",
+          property: "og:url",
+          content: "https://test-op-nuxt.vercel.app/",
+        },
 
         { hid: "t-type", name: "twitter:card", content: "summary_large_image" },
         { hid: "t-title", name: "twitter:title", content: "Mee Title" },
