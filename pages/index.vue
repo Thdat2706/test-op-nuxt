@@ -28,8 +28,6 @@
 </template>
 
 <script>
-import ImageSrc from "static/favicon.png";
-
 export default {
   name: "IndexPage",
   head() {
@@ -41,7 +39,7 @@ export default {
         {
           hid: "og-image",
           property: "og:image",
-          content: ImageSrc,
+          content: "static/favicon.png",
         },
         { hid: "og-desc", property: "og:description", content: "Mee desc" },
         {
@@ -56,7 +54,7 @@ export default {
         {
           hid: "t-image",
           name: "twitter:image",
-          content: ImageSrc,
+          content: "static/favicon.png",
         },
       ],
     };
