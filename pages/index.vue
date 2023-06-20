@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import ImageSrc from "@/static/favicon.png";
+import ImageSrc from "static/favicon.png";
 
 export default {
   name: "IndexPage",
