@@ -40,7 +40,7 @@ export default {
           hid: "og-image",
           property: "og:image",
           content:
-            "https://res.cloudinary.com/dwq8gdm1c/image/upload/v1685516392/favicon_uoltws.png",
+            "/favicon.png",
         },
         { hid: "og-desc", property: "og:description", content: "Mee desc" },
         {
@@ -56,7 +56,7 @@ export default {
           hid: "t-image",
           name: "twitter:image",
           content:
-            "https://res.cloudinary.com/dwq8gdm1c/image/upload/v1685516392/favicon_uoltws.png",
+            "/favicon.png",
         },
       ],
     };
