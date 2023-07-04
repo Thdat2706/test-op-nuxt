@@ -34,14 +34,14 @@ export default {
     return {
       title: "The Pursuit of Happyness - Homepage",
       meta: [
-        { hid: "og-title", property: "og:title", content: "Mee Title" },
-        { hid: "og-type", property: "og:type", content: "website" },
+        { hid: "og:title", property: "og:title", content: "Mee Title" },
+        { hid: "og:type", property: "og:type", content: "website" },
         {
-          hid: "og-image",
+          hid: "og:image",
           property: "og:image",
           content: "https://f5-storage-test-public.s3.ap-northeast-1.amazonaws.com/users_profiles/youngman_31.png",
         },
-        { hid: "og-desc", property: "og:description", content: "Mee desc" },
+        { hid: "og:desc", property: "og:description", content: "Mee desc" },
         {
           hid: "og:url",
           property: "og:url",
