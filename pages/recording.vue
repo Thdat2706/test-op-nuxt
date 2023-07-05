@@ -47,6 +47,8 @@ export default {
         const audioBlob = new Blob(this.recordedChunks, { type: "audio/webm" });
         const audioUrl = URL.createObjectURL(audioBlob); // put object to s3 service here
 
+        audio.controls = true;
+        audio.src = audioUrl;
         // Do something with the recorded audio, e.g., save it to a server, play it, etc.
         console.log("Recorded audio URL:", audioUrl);
 
@@ -68,8 +70,6 @@ export default {
         clipContainer.appendChild(deleteButton);
         soundClips.appendChild(clipContainer);
 
-        audio.controls = true;
-        audio.src = audioURL;
         // const blob = new Blob(chunks, { type: "audio/ogg; codecs=opus" });
         // chunks = [];
         // const audioURL = window.URL.createObjectURL(blob);
